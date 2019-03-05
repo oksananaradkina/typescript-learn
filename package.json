@@ -1,0 +1,28 @@
+{
+  "name": "typescript-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "we are live!",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oksananaradkina/typescript-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oksananaradkina/typescript-learn/issues"
+  },
+  "homepage": "https://github.com/oksananaradkina/typescript-learn#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "lite-server": "^2.4.0",
+    "typescript": "^3.3.3333"
+  }
+}
